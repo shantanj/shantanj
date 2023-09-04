@@ -1,0 +1,285 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNn8p6K+PAtsp/O0SOFYGSY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shantanj/shantanj/blob/main/pps%20lecture%202%20(min%2Cmax%2Clen)%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "0XpxTjeGbUB7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ilYY2yP6bVdz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"max of list={max(mylist)}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R956XBpLe7VO",
+        "outputId": "51464c6c-a21e-47fb-888f-56037135669d"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=4\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=7\n",
+            "enter the number=8\n",
+            "[5.0, 6.0, 7.0, 8.0]\n",
+            "max of list=8.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"min of list={min(mylist)}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CJWTKKB4gRWo",
+        "outputId": "3b01c879-d361-44a4-bae9-80b5a1877246"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=7\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=4\n",
+            "enter the number=2\n",
+            "enter the number=1\n",
+            "enter the number=3\n",
+            "enter the number=8\n",
+            "[5.0, 6.0, 4.0, 2.0, 1.0, 3.0, 8.0]\n",
+            "min of list=1.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"sum of list={sum(mylist)}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dDR01nq8gtPA",
+        "outputId": "4171d989-cf95-458c-9e3f-8bd1ea014506"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=4\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=7\n",
+            "enter the number=8\n",
+            "[5.0, 6.0, 7.0, 8.0]\n",
+            "sum of list=26.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"len of list={len3(mylist)}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AppgFVMcg7-P",
+        "outputId": "d472b2b4-7778-46ac-ad90-27fc2cb3267f"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=4\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=1\n",
+            "enter the number=2\n",
+            "[5.0, 6.0, 1.0, 2.0]\n",
+            "len of list=4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"min of list={min(mylist)}\")\n",
+        "print(f\"len of list={len(mylist)}\")\n",
+        "print(f\"sum of list={sum(mylist)}\")\n",
+        "print(f\"max of list={max(mylist)}\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sJb4BdCihE0S",
+        "outputId": "3f243a77-4cea-4385-f990-3720b9d50518"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=4\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=7\n",
+            "enter the number=8\n",
+            "[5.0, 6.0, 7.0, 8.0]\n",
+            "min of list=5.0\n",
+            "len of list=4\n",
+            "sum of list=26.0\n",
+            "max of list=8.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=int(input(\"enter the number=\"))\n",
+        "mylist=[]\n",
+        "for i in range(n):\n",
+        "  num=float(input(\"enter the number=\"))\n",
+        "  mylist.append(num)\n",
+        "print(mylist)\n",
+        "print(f\"min of list={min(mylist)}\")\n",
+        "print(f\"len of list={len(mylist)}\")\n",
+        "print(f\"sum of list={sum(mylist)}\")\n",
+        "print(f\"max of list={max(mylist)}\")\n",
+        "print(f\"mean of list={sum(mylist)/n}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OyV3i8_AkAwQ",
+        "outputId": "40f6e063-f1f3-4b55-e93a-fbe4d4b28905"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the number=4\n",
+            "enter the number=5\n",
+            "enter the number=6\n",
+            "enter the number=7\n",
+            "enter the number=8\n",
+            "[5.0, 6.0, 7.0, 8.0]\n",
+            "min of list=5.0\n",
+            "len of list=4\n",
+            "sum of list=26.0\n",
+            "max of list=8.0\n",
+            "mean of list=6.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "v5R1tEHdfSy5"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
